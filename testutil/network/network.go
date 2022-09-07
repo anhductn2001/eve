@@ -8,9 +8,9 @@ import (
 
 	// "github.com/tendermint/spm/cosmoscmd"
 
+	tmdb "github.com/cosmos/cosmos-db"
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	tmdb "github.com/tendermint/tm-db"
 )
 
 type (

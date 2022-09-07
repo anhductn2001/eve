@@ -26,10 +26,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 
 	// Tendermint.
+	dbm "github.com/cosmos/cosmos-db"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmos "github.com/tendermint/tendermint/libs/os"
-	dbm "github.com/tendermint/tm-db"
 
 	// Misc.
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"

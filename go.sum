@@ -255,12 +255,10 @@ github.com/coreos/go-systemd/v22 v22.3.3-0.20220203105225-a9a7ef127534/go.mod h1
 github.com/coreos/pkg v0.0.0-20160727233714-3ac0863d7acf/go.mod h1:E3G3o1h8I7cfcXa63jLwjI0eiQQMgzzUDFVpN/nH/eA=
 github.com/cosmos/btcutil v1.0.4 h1:n7C2ngKXo7UC9gNyMNLbzqz7Asuf+7Qv4gnX/rOdQ44=
 github.com/cosmos/btcutil v1.0.4/go.mod h1:Ffqc8Hn6TJUdDgHBwIZLtrLQC1KdJ9jGJl/TvgUaxbU=
-github.com/cosmos/cosmos-db v0.0.0-20220822060143-23a8145386c0 h1:OMu+dCsWVVsHodR4ykMKEj0VtwkNL+xOtyv0vmCmZVQ=
-github.com/cosmos/cosmos-db v0.0.0-20220822060143-23a8145386c0/go.mod h1:n5af5ISKZ7tP0q9hP1TW6MnWh7GrVrNfCLZhg+22gzg=
+github.com/cosmos/cosmos-db v0.0.0-20220901120321-77d98dabb5d3 h1:h2ENpR9rZnqLE85EdN+OoGZ3DUH9Xjfozz44wnA3Or8=
+github.com/cosmos/cosmos-db v0.0.0-20220901120321-77d98dabb5d3/go.mod h1:5DZPX2HFdg4n1PWFXRR/q7J2e1mxRc+A7g3UMnrKHkM=
 github.com/cosmos/cosmos-proto v1.0.0-alpha7 h1:yqYUOHF2jopwZh4dVQp3xgqwftE5/2hkrwIV6vkUbO0=
 github.com/cosmos/cosmos-proto v1.0.0-alpha7/go.mod h1:dosO4pSAbJF8zWCzCoTWP7nNsjcvSUBQmniFxDg5daw=
-github.com/cosmos/cosmos-sdk v0.46.1 h1:7vUZXMyrmEb4xtBYpz1TobtrcnpgiZTi+tVjc0XWB4o=
-github.com/cosmos/cosmos-sdk v0.46.1/go.mod h1:2+o8Qw8qnE02V+lQVZDJFQ8tri/hsiA5GmWaPERqVa0=
 github.com/cosmos/go-bip39 v0.0.0-20180819234021-555e2067c45d/go.mod h1:tSxLoYXyBmiFeKpvmq4dzayMdCjCnu8uqmCysIGBT2Y=
 github.com/cosmos/go-bip39 v1.0.0 h1:pcomnQdrdH22njcAatO0yWojsUnCO3y2tNoV1cb6hHY=
 github.com/cosmos/go-bip39 v1.0.0/go.mod h1:RNJv0H/pOIVgxw6KS7QeX2a0Uo0aKUlfhZ4xuwvCdJw=
@@ -268,8 +266,8 @@ github.com/cosmos/gorocksdb v1.2.0 h1:d0l3jJG8M4hBouIZq0mDUHZ+zjOx044J3nGRskwTb4
 github.com/cosmos/gorocksdb v1.2.0/go.mod h1:aaKvKItm514hKfNJpUJXnnOWeBnk2GL4+Qw9NHizILw=
 github.com/cosmos/iavl v0.19.2-0.20220831121246-807f8c542e48 h1:EsahAnhcFjgBEw5YmpKC4WPIXuq+/wtfv8wILvlzH7M=
 github.com/cosmos/iavl v0.19.2-0.20220831121246-807f8c542e48/go.mod h1:QDVpRN0MG85An81kvRwB/yhAA6AuMvlTRM+CJTdslpg=
-github.com/cosmos/ibc-go/v5 v5.0.0-rc0 h1:KWuyL0DmXQ2/vtwlP3ZvLFjZxD8J6o6zTqje4XCRHYw=
-github.com/cosmos/ibc-go/v5 v5.0.0-rc0/go.mod h1:gSeljfcWlUKjKhTptUpqz83zYpGE+/Q+HJwmDPq5pJs=
+github.com/cosmos/ibc-go/v5 v5.0.0-rc1 h1:9cgpYmHh2jodB/t3LwB/pYA2sG9rdKB9cmXP0D5M0Fs=
+github.com/cosmos/ibc-go/v5 v5.0.0-rc1/go.mod h1:Wqsguq98Iuns8tgTv8+xaGYbC+Q8zJfbpjzT6IgMJbs=
 github.com/cosmos/interchain-accounts v0.3.2 h1:7S5rSndahpjkzUvG00kKZrTZsEuVHuVC9a7p0qDVcF8=
 github.com/cosmos/ledger-cosmos-go v0.11.1 h1:9JIYsGnXP613pb2vPjFeMMjBI5lEDsEaF6oYorTy6J4=
 github.com/cosmos/ledger-cosmos-go v0.11.1/go.mod h1:J8//BsAGTo3OC/vDLjMRFLW6q0WAaXvHnVc7ZmE8iUY=
@@ -729,8 +727,8 @@ github.com/libp2p/go-buffer-pool v0.1.0 h1:oK4mSFcQz7cTQIfqbe4MIj9gLW+mnanjyFtc6
 github.com/libp2p/go-buffer-pool v0.1.0/go.mod h1:N+vh8gMqimBzdKkSMVuydVDq+UV5QTWy5HSiZacSbPg=
 github.com/lightstep/lightstep-tracer-common/golang/gogo v0.0.0-20190605223551-bc2310a04743/go.mod h1:qklhhLq1aX+mtWk9cPHPzaBjWImj5ULL6C7HFJtXQMM=
 github.com/lightstep/lightstep-tracer-go v0.18.1/go.mod h1:jlF1pusYV4pidLvZ+XD0UBX0ZE6WURAspgAczcDHrL4=
-github.com/linxGnu/grocksdb v1.7.4 h1:RCdeq0Y9jsDkRtFcgWclRrpL/AFEMQhPyOp6OIprOGc=
-github.com/linxGnu/grocksdb v1.7.4/go.mod h1:G4zrMNj2CP2aCXF61jbmZH81tu+kU3qU4rYpOU8WOL8=
+github.com/linxGnu/grocksdb v1.7.5 h1:nB/Z6OsxvO4VJqn4CYaUubYh0523YBsAPvrW5Gc7cnY=
+github.com/linxGnu/grocksdb v1.7.5/go.mod h1:8RUIOKch4MgftfkmgG4FPVkPUwvbLWlX/FcDkJFXIbo=
 github.com/lucasjones/reggen v0.0.0-20180717132126-cdb49ff09d77/go.mod h1:5ELEyG+X8f+meRWHuqUOewBOhvHkl7M76pdGEansxW4=
 github.com/lyft/protoc-gen-validate v0.0.13/go.mod h1:XbGvPuh87YZc5TdIa2/I4pLk0QoUACkjt2znoq26NVQ=
 github.com/magiconair/properties v1.8.0/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
@@ -817,6 +815,8 @@ github.com/nats-io/nkeys v0.1.3/go.mod h1:xpnFELMwJABBLVhffcfd1MZx6VsNRFpEugbxzi
 github.com/nats-io/nuid v1.0.1/go.mod h1:19wcPz3Ph3q0Jbyiqsd0kePYG7A95tJPxeL+1OSON2c=
 github.com/neilotoole/errgroup v0.1.6/go.mod h1:Q2nLGf+594h0CLBs/Mbg6qOr7GtqDK7C2S41udRnToE=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
+github.com/notional-labs/cosmos-sdk v0.46.0-craft.0.20220907004034-2a40a2ecd9c5 h1:5GNz1gNr/gRaTxWjzlw3a708ZvKsPmDZDPWoHhlyWJQ=
+github.com/notional-labs/cosmos-sdk v0.46.0-craft.0.20220907004034-2a40a2ecd9c5/go.mod h1:1ewwrHQB6DXP6jmMDyF1u8TwBbZ9INgyjNAT+KKzKkg=
 github.com/notional-labs/wasmd v0.25.1-0.20220825131835-6bb783a13332 h1:7Gy1MkZwVpfNb94yOgWCq9XMDOMNLaE8s3CRDQhTj+w=
 github.com/notional-labs/wasmd v0.25.1-0.20220825131835-6bb783a13332/go.mod h1:x1iPT/Suyqo+8S1AeEfAbbAC0synElHmXhcey1+kKQ0=
 github.com/nxadm/tail v1.4.4 h1:DQuhQpB1tVlglWS2hLQ5OV6B5r8aGxSrPc5Qo6uTN78=

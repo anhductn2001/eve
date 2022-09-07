@@ -5,8 +5,9 @@ go 1.19
 require (
 	cosmossdk.io/math v1.0.0-beta.3
 	github.com/CosmWasm/wasmd v0.0.0-00010101000000-000000000000
+	github.com/cosmos/cosmos-db v0.0.0-20220901120321-77d98dabb5d3
 	github.com/cosmos/cosmos-sdk v0.46.1
-	github.com/cosmos/ibc-go/v5 v5.0.0-rc0
+	github.com/cosmos/ibc-go/v5 v5.0.0-rc1
 	github.com/golang/mock v1.6.0
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
@@ -19,10 +20,10 @@ require (
 )
 
 require (
-	github.com/cosmos/cosmos-db v0.0.0-20220822060143-23a8145386c0 // indirect
 	github.com/dgraph-io/badger/v2 v2.2007.4 // indirect
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
-	github.com/linxGnu/grocksdb v1.7.4 // indirect
+	github.com/linxGnu/grocksdb v1.7.5 // indirect
+	github.com/tendermint/tm-db v0.6.7 // indirect
 )
 
 require (
@@ -148,7 +149,6 @@ require (
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15 // indirect
 	github.com/tendermint/go-amino v0.16.0 // indirect
 	github.com/tendermint/tendermint v0.34.21
-	github.com/tendermint/tm-db v0.6.7
 	github.com/ulikunitz/xz v0.5.8 // indirect
 	github.com/zondax/hid v0.9.1-0.20220302062450-5552068d2266 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
@@ -173,6 +173,7 @@ require (
 
 replace (
 	github.com/CosmWasm/wasmd => github.com/notional-labs/wasmd v0.25.1-0.20220825131835-6bb783a13332
+	github.com/cosmos/cosmos-sdk => github.com/notional-labs/cosmos-sdk v0.46.0-craft.0.20220907004034-2a40a2ecd9c5
 	// Fix upstream GHSA-h395-qcrw-5vmq vulnerability.
 	// TODO Remove it: https://github.com/cosmos/cosmos-sdk/issues/10409
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.8.1
